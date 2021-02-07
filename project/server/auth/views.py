@@ -80,5 +80,5 @@ users_blueprint.add_url_rule('/users/index', view_func=ShowUsers.as_view('show_u
 
 home_blueprint = Blueprint('home',__name__)
 def index():
-    return "Sandra Zhen CS501 T1 Diagnostic Test"
+    return "Yash Jain CS501 T1 Diagnostic Test"
 home_blueprint.add_url_rule('/', 'index', index) 
