@@ -22,6 +22,9 @@ class User(db.Model):
         self.registered_on = datetime.datetime.now()
         self.admin = admin
 
+    def __repr__(self):
+        return f"{self.email}"
+
     def encode_auth_token(self, user_id):
         """
         Generates the Auth Token
