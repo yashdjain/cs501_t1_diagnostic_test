@@ -72,11 +72,11 @@ users_blueprint = Blueprint('users', __name__)
 
 class ShowUsers(MethodView):
 
-    def post(self):
+    def get(self):
         users = User.query.all()
         return str(users)
 
-users_blueprint.add_url_rule('/users/index', view_func=ShowUsers.as_view('show_users'), methods=['POST'])
+users_blueprint.add_url_rule('/users/index', view_func=ShowUsers.as_view('show_users'), methods=['GET'])
 
 home_blueprint = Blueprint('home',__name__)
 def index():
