@@ -1,0 +1,11 @@
+1. https://github.com/yashdjain/cs501_t1_diagnostic_test
+2. https://cs501diagapp-api-heroku.herokuapp.com/
+3. I, Yash Jain, confirm that I have read and understood the syllabus outlined at https://cs-people.bu.edu/dharmesh/teaching/cs501_t1_sp21. U59371780
+
+Sources:
+
+I borrowed code from:
+https://gist.github.com/mayukh18/2223bc8fc152631205abd7cbf1efdd41/
+https://github.com/Zayta/cs501_t1_diagnostic_test/
+https://flask.palletsprojects.com/en/1.1.x/api/
+
